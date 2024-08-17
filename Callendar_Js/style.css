@@ -1,0 +1,119 @@
+.calendar-cont {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #525050;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(239, 80, 0, 0.1);
+    color: #fff;
+}
+
+.calendar-header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.calendar-header button {
+    background-color: #ff6600;
+    border-radius: 15px;
+    gap: 20px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+ 
+.calendar-header button:hover {
+    background-color: #000000;
+}
+
+.calendar-body {
+    padding: 20px;
+}
+
+#calendar-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#calendar-table th, #calendar-table td {
+    padding: 10px;
+    text-align: center;
+}
+  
+#calendar-table th {
+    background-color: #ff6600;
+    border-radius: 20px;
+}
+
+.event-form {
+    padding: 20px;
+}
+  
+.event-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.event-form input{
+    width: 70%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0px;
+    border: none;
+    font-size: 16px;
+    background-color: #6c6b6b;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.event-form button {
+    background-color: #ff6600;
+    border-radius: 15px;
+    gap: 20px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-left: 200px;
+}
+ 
+.event-form button:hover {
+    background-color: #000;
+}
+
+
+#event-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+  #event-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+  
+  #event-list li:last-child {
+    border-bottom: none;
+}
+
+.event-list button {
+    background-color: #ff6600;
+    border-radius: 15px;
+    gap: 20px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.event-list button:hover {
+    background-color: #000;
+}

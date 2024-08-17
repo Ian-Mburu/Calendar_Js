@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calendar Application Manager</title>
+</head>
+<body>
+    
+    <div class="small">
+        <h1>Calendar App</h1>
+    </div>
+    
+    <div class="calendar-cont">
+        <small>Plan your vacation with us...</small>
+
+        <div class="calendar-header">
+            <button id="prev-month">Previous Month</button>
+            <span id="current-month"></span>
+            <button id="next-month">Next Month</button>
+        </div>
+
+        <div class="calendar-body">
+            <table id="calendar-table">
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thur</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+
+                <tbody id="calendar-body">
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="event-form">
+            <h2>Add Event</h2>
+            
+            <form id="event-form">
+                <input type="text" id="event-title" name="title" placeholder="Title">
+                <br>
+                <br>
+                <input type="date" id="event-date" name="date" placeholder="Date">
+                <br>
+                <br>
+                <input type="time" id="event-time" name="time" placeholder="Time">
+                <br>
+                <br>
+                <button id="add-event">Add Event</button>
+            </form>
+        </div>
+
+        <div class="event-list">
+            <h2>Events</h2>
+            
+            <ol id="event-list">
+                <span> <button id="event-details">Event Details</button></span>
+            </ol>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
